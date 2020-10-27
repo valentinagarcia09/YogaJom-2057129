@@ -1,3 +1,4 @@
 Cambios
 
 --Solucionar la carga de la tipografia
+--Ajustar la vista de tablet
