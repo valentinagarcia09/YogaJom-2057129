@@ -2,33 +2,37 @@
     padding: 0;
     margin: 0;
     border: 0;
-    text-decoration: none;
-    font-family: "Quicksand";
-    /* overflow-x: hidden; */
-    
+    text-decoration:none;
 }
 @font-face{
         font-family:"Quicksand";
-        src: url(/fonts/Quicksand-Regular.ttf);
+        src: url(../fonts/static/Quicksand-Regular.ttf);
     }
 @font-face{
-        font-family:"-BoldQuicksand";
-        src: url(/fonts/static/Quicksand-Bold.ttf);
+        font-family:"BoldQuicksand";
+        src: url(../fonts/static/Quicksand-Bold.ttf);
     }
  @font-face{
-        font-family:"-LightQuicksand";
-        src: url(/fonts/static/Quicksand-Light.ttf);
+        font-family:"LightQuicksand";
+        src: url(../fonts/static/Quicksand-Light.ttf);
     }
 @font-face{
-        font-family:"-MediumQuicksand";
-        src: url(/fonts/static/Quicksand-Medium.ttf);
+        font-family:"MediumQuicksand";
+        src: url(../fonts/static/Quicksand-Medium.ttf);
     }
  @font-face{
-        font-family:"-SemiboldQuicksand";
-        src: url(/fonts/static/Quicksand-SemiBold.ttf);
+        font-family:"SemiboldQuicksand";
+        src: url(../fonts/static/Quicksand-SemiBold.ttf);
     }
-    
 
+.f-bold{
+    font-family:"BoldQuicksand" 
+}
+
+body{
+    font-family:"Quicksand";
+}
+    
 #welcomer-section{
     width: 100%;
     height: 100vh;
