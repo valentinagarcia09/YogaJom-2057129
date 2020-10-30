@@ -3,18 +3,31 @@
     margin: 0;
     border: 0;
     text-decoration: none;
-    font-family: Quicksand;
+    font-family: "Quicksand";
     /* overflow-x: hidden; */
     
 }
-
 @font-face{
-    font-family: Quicksand;
-    src: url(/fonts/Quicksand-VariableFont_wght.ttf);
-    src: url(/fonts/static/Quicksand-Bold.ttf);
-    src: url(/fonts/static/Quicksand-SemiBold.ttf);
-
-}
+        font-family:"Quicksand";
+        src: url(/fonts/Quicksand-Regular.ttf);
+    }
+@font-face{
+        font-family:"-BoldQuicksand";
+        src: url(/fonts/static/Quicksand-Bold.ttf);
+    }
+ @font-face{
+        font-family:"-LightQuicksand";
+        src: url(/fonts/static/Quicksand-Light.ttf);
+    }
+@font-face{
+        font-family:"-MediumQuicksand";
+        src: url(/fonts/static/Quicksand-Medium.ttf);
+    }
+ @font-face{
+        font-family:"-SemiboldQuicksand";
+        src: url(/fonts/static/Quicksand-SemiBold.ttf);
+    }
+    
 
 #welcomer-section{
     width: 100%;
@@ -40,7 +53,7 @@ nav{
 nav a{
     padding: 15px;
     margin-right: 60px;
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-size: 20px;
     color: black;
     border-bottom: 1px solid transparent;
