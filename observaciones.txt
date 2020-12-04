@@ -1,4 +1,4 @@
 Cambios
-
---Solucionar la carga de la tipografia
---Ajustar la vista de tablet
+-- Pasar la pagina a React 
+-- https://drive.google.com/drive/folders/1937SradcuKFPdqO0qhHefoTacCKbsmT7 adjunto 
+link de clases para react y JS
